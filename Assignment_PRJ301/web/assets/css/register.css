@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2025, 11:04:12 PM
+    Author     : ad
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../img/pexels-nickoloui-1319458.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background-color: rgba(0, 0, 0, 0.88);
+    color: #fff;
+    padding: 45px 35px;
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+.register-container h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #f9c851;
+    letter-spacing: 1px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #2c2c2c;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #f9c851, #cfa10c);
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #fff6d1, #f9c851);
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f9c851;
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .register-container h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+}
+
+

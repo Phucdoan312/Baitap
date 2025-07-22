@@ -1,0 +1,135 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 12, 2025, 10:11:02 AM
+    Author     : ad
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../img/contact.jpg'); 
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.88);
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFA500;
+    margin-bottom: 30px;
+}
+
+.qr-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: #1c1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.qr-left {
+    flex: 1 1 300px;
+    padding: 25px;
+    text-align: center;
+    border-right: 1px solid #444;
+}
+
+.qr-left h2 {
+    color: #FFA500;
+    margin-bottom: 20px;
+}
+
+.qr-left img {
+    width: 240px;
+    max-width: 100%;
+    border: 5px solid #FFA500;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.qr-right {
+    flex: 1 1 400px;
+    padding: 25px;
+}
+
+.qr-right h3 {
+    margin-top: 0;
+    color: #FFA500;
+    margin-bottom: 20px;
+}
+
+.info-row {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.info-row strong {
+    display: inline-block;
+    width: 160px;
+    color: #FFA500;
+}
+
+.back-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #FFA500;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #ff8c00;
+}
+
+.note {
+    margin-top: 25px;
+    font-size: 15px;
+    color: #f0c674;
+    text-align: center;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .qr-wrapper {
+        flex-direction: column;
+    }
+
+    .qr-left {
+        border-right: none;
+        border-bottom: 1px solid #444;
+    }
+
+    .qr-right {
+        padding-top: 10px;
+    }
+
+    .info-row strong {
+        width: 100%;
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .back-btn {
+        width: 100%;
+        max-width: 280px;
+        margin: 20px auto 0;
+    }
+}

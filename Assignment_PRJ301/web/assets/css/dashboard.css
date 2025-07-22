@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2025, 9:31:52 PM
+    Author     : ad
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../img/330803ae205fca2a2d3812132239f84d.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    margin: 80px auto;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+p {
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    background: linear-gradient(135deg, #444, #888);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #222, #555);
+}
+.link-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.link-button:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 30px 20px;
+        margin: 40px auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 12px;
+        margin: 10px 0;
+    }
+
+    .link-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
